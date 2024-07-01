@@ -1,0 +1,132 @@
+*{
+    margin: 10px 8px 8px 8px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body
+{
+    background-image: url(./images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+
+}
+.titulo{
+    background-color:rgb(114, 194, 160);
+    
+    padding: 50px 50px 50px 50px;
+    font-family: cursive;
+    border: solid 2px black;
+   
+    color: rgb(19, 11, 2);
+    text-align: center;
+}
+.formulario{
+    background-image: url(./images/contactenosfondo.jpg);
+}
+.form-label{
+    background-color: rgb(1, 5, 12);
+    color: beige;
+}
+.form-text{
+    background-color:brown;
+    color: black;
+    font-size:large;
+}
+
+   
+
+
+
+
+.inicio{
+    background-color: black;
+    color: blanchedalmond;
+}
+footer{
+    padding: 1em 0;
+
+
+    margin-top: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.violeta{
+    background-image: url(./images/PlastciOvIOLETA.jpeg) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.pastel{
+    background-image: url(./images/PLaricoRopsaPastel.jpeg) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.celeste{
+    background-image: url(./images/plastcioCeleste.png) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.amarillo{
+    background-image: url(./images/PlasticoAmarillo.png) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}  
+.blanco{
+    background-image: url(./images/plasticoBlanco.jpeg) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.negro
+{
+    background-image: url(./images/PlasticoNegro.jpeg) ;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 300px 100px
+}
+.bigote{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    
+    
+}
+p{
+    background-color: antiquewhite;
+    color: black;
+}
+.kits{
+    background-color: blueviolet;
+    color: azure;
+}
+.accesorios{
+    background-color: aquamarine;
+    color: black;
+}
+.perso{
+    background-color: black;
+color: beige;}
